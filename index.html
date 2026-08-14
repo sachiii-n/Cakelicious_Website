@@ -24,7 +24,7 @@
                 </ul>
             </nav>
         </div>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class='hero-left'>
                 <div class="hero-title">
                     <h1>Cakelicious</h1>
@@ -40,10 +40,10 @@
                 </div>
             </div>
             <div class='hero-right'>
-                <img src="cake_gemini_cutout.png" alt="Cake Image">
+                <img src="final_cake1-transparent.png" alt="Cake Image">
             </div>
         </section>
-        <section class="cake-menu">
+        <section class="cake-menu" id="order">
     <div class="section-header">
         <h2>Our Cake Menu</h2>
         <a href="#" class="see-all">See All</a>
@@ -140,11 +140,28 @@
         </div>
     </div>
 </section>   
+        <section class="placeholder-section" id="customise">
+            <div class="section-header">
+                <h2>Customise</h2>
+            </div>
+            <div class="placeholder-content">
+                <p>Custom cake options coming soon.</p>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-details">
+                <p><i class="ti ti-phone"></i> <a href="tel:+919049998483">+91 9049998483</a></p>
+                <p><i class="ti ti-mail"></i> <a href="mailto:radhika.patwardhan@gmail.com">radhika.patwardhan@gmail.com</a></p>
+            </div>
+        </section>
         <section class="feedback-section" id="feedback">
             <div class="section-header">
                 <h2>Feedback</h2>
             </div>
-            <form class="feedback-form">
+            <form class="feedback-form" id="feedback-form" action="https://formspree.io/f/maqrzvdz" method="POST">
                 <input type="text" name="name" placeholder="Your name" aria-label="Your name">
                 <input type="email" name="email" placeholder="Your email" aria-label="Your email">
                 <select name="rating" aria-label="Rating">
@@ -158,6 +175,16 @@
                 <textarea name="message" rows="4" placeholder="Tell us what you loved" aria-label="Feedback message"></textarea>
                 <button type="submit" class="feedback-btn">Submit Feedback</button>
             </form>
+            <p id="feedback-thankyou" style="display: none;">Thank you for your feedback!</p>
         </section>
-    </body>
+        <section class="placeholder-section" id="about">
+            <div class="section-header">
+                <h2>About</h2>
+            </div>
+            <div class="placeholder-content">
+                <p>More about Cakelicious coming soon.</p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        </body> 
 </html>
