@@ -65,7 +65,7 @@ body {
    border-radius: 34px;
    overflow: hidden;
    background:
-        radial-gradient(circle at 74% 58%, rgba(241, 221, 175, 0.16) 0 18%, rgba(241, 221, 175, 0.04) 38%, transparent 56%),
+        radial-gradient(circle at 74% 58%, rgba(241, 221, 175, 0.38) 0 18%, rgba(241, 221, 175, 0.09) 38%, transparent 56%),
         radial-gradient(circle at 14% 18%, rgba(255, 250, 240, 0.18), transparent 24%),
         linear-gradient(135deg, #c0b295 0%, #998148 54%, #5c4a1f 100%);
    box-shadow: 0 22px 55px rgba(92, 74, 31, 0.2);
@@ -110,7 +110,7 @@ body {
     height: 100%;
     object-fit: contain;
     object-position: center bottom;
-    filter: drop-shadow(0 18px 28px rgba(57, 36, 18, 0.28));
+    filter: drop-shadow(0 18px 28px rgba(57, 36, 18, 0.35));
 }
 
 .btn-primary {
